@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WildTrack — Politique de confidentialité / Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #1B3A2B;
+    --border: #e4e4e4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12181a;
+      --fg: #f0f0f0;
+      --muted: #a8a8a8;
+      --accent: #7fbf9e;
+      --border: #2a2f30;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .lang-switch {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .lang-switch button {
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--fg);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .lang-switch button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  section { margin-bottom: 1.75rem; }
+  h2 {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+  }
+  p {
+    margin: 0;
+    color: var(--fg);
+  }
+  a { color: var(--accent); }
+  [hidden] { display: none !important; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang-switch" role="group" aria-label="Language">
+    <button type="button" data-lang="fr" aria-pressed="true">Français</button>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+
+  <article data-doc="fr">
+    <h1>Politique de confidentialité — WildTrack</h1>
+    <p class="updated">Dernière mise à jour : 25 juillet 2026</p>
+
+    <section>
+      <h2>Qui sommes-nous</h2>
+      <p>WildTrack est une app de carnet et de partage de prises pour pêcheurs et chasseurs. Cette politique explique quelles données l'app traite, pourquoi, et les choix dont tu disposes. Pour toute question ou demande, contacte-nous à l'adresse indiquée dans la section « Contact » ci-dessous.</p>
+    </section>
+
+    <section>
+      <h2>Ce que nous collectons</h2>
+      <p>Ton compte : adresse email et mot de passe (ou ta connexion Google/Apple), pseudo, et en option un avatar, une bio, ta tranche d'âge et ta région. Tes prises : photo, espèce, mesures, date, matériel, description, météo, et — si tu l'autorises — la position GPS. Tes préférences optionnelles : activités et centres d'intérêt, utilisées pour personnaliser le fil Public ; l'âge et la région n'entrent pas dans ce classement. Ton activité : groupes, abonnements, kudos, commentaires, blocages et signalements.</p>
+    </section>
+
+    <section>
+      <h2>Ce que nous en faisons</h2>
+      <p>Faire fonctionner le service : montrer tes prises aux personnes que tu as choisies, calculer les classements de groupe, envoyer les notifications. Personnaliser : tes activités et centres d'intérêt alimentent le classement du fil Public, côté serveur uniquement — ils ne sont jamais montrés aux autres. Protéger la communauté : signalements, blocages et décisions de modération. Nous ne vendons pas tes données et il n'y a aucune publicité.</p>
+    </section>
+
+    <section>
+      <h2>Ta position reste la tienne</h2>
+      <p>Chaque prise a son propre réglage de localisation : exacte, floutée ou masquée. En flouté, les autres ne voient qu'une zone approximative (1 à 2 km) ; la position exacte ne quitte jamais le serveur. En masqué, personne ne voit rien. Tu peux aussi enregistrer une prise sans aucune position. Sur l'onglet Carte, c'est encore plus strict : seules les prises publiques en mode flouté y apparaissent, jamais en position exacte ni masquée — même les tiennes.</p>
+    </section>
+
+    <section>
+      <h2>Où vivent tes données</h2>
+      <p>Les données sont hébergées sur l'infrastructure Supabase (PostgreSQL managé et stockage de fichiers), au sein de l'Union européenne (France et Irlande). Les photos sont privées par défaut et téléchargées de façon authentifiée : chaque accès revérifie que tu es autorisé à voir la prise, il n'existe aucun lien public réutilisable.</p>
+    </section>
+
+    <section>
+      <h2>Conservation et suppression</h2>
+      <p>Tes données sont conservées tant que ton compte existe. Supprimer ton compte (Profil → Modifier le profil → Supprimer mon compte) efface définitivement ton profil, tes prises, photos, commentaires, abonnements, groupes, préférences et les signalements liés à ton compte. Un journal interne des décisions de modération (dates, actions et identifiants techniques, sans copie du contenu ni du média) est conservé à des fins d'audit.</p>
+    </section>
+
+    <section>
+      <h2>Tes droits</h2>
+      <p>Tu peux consulter, corriger ou supprimer tes données à tout moment : pseudo, bio, avatar et préférences se modifient dans l'app, et la suppression de compte est immédiate et définitive. Le RGPD te donne aussi des droits d'accès, de rectification, d'effacement et de portabilité — contacte-nous pour les exercer.</p>
+    </section>
+
+    <section>
+      <h2>Évolution de cette politique</h2>
+      <p>Si cette politique change de façon significative, nous le dirons dans l'app avant l'entrée en vigueur. La date en haut de page reflète toujours la dernière version.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Pour toute question ou demande liée à la confidentialité : <a href="mailto:wildtrack.org@gmail.com">wildtrack.org@gmail.com</a>.</p>
+    </section>
+  </article>
+
+  <article data-doc="en" hidden>
+    <h1>Privacy Policy — WildTrack</h1>
+    <p class="updated">Last updated: July 25, 2026</p>
+
+    <section>
+      <h2>Who we are</h2>
+      <p>WildTrack is a catch logbook and sharing app for anglers and hunters. This policy explains what data the app handles, why, and the choices you have. For any question or request, contact us at the address in the "Contact" section below.</p>
+    </section>
+
+    <section>
+      <h2>What we collect</h2>
+      <p>Your account: email address and password (or your Google/Apple sign-in), username, and optionally an avatar, a bio, your age range and region. Your catches: photo, species, measurements, date, gear, description, weather snapshot, and — if you allow it — the GPS position. Optional preferences: activities and interests, used to personalize the Public feed; age and region are not used in that ranking. Your activity: groups, follows, kudos, comments, blocks and reports.</p>
+    </section>
+
+    <section>
+      <h2>How we use your data</h2>
+      <p>To run the service: show your catches to the people you chose, compute group leaderboards, deliver notifications. To personalize: your activities and interests feed the Public ranking, server-side only — they are never shown to other users. To keep the community safe: reports, blocks and moderation decisions. We do not sell your data and we show no advertising.</p>
+    </section>
+
+    <section>
+      <h2>Your location stays yours</h2>
+      <p>Each catch has its own location setting: exact, blurred or hidden. If you pick blurred, others only ever see an approximate area (about 1–2 km); the exact position never leaves the server. If you pick hidden, nobody sees anything. You can also log a catch with no position at all. The Map tab is even stricter: only public catches set to blurred ever show up there, never at an exact position and never hidden ones — even your own.</p>
+    </section>
+
+    <section>
+      <h2>Where your data lives</h2>
+      <p>Data is stored on Supabase infrastructure (managed PostgreSQL and file storage), within the European Union (France and Ireland). Photos are private by default and downloaded through an authenticated request each time: every access re-checks that you're allowed to see the catch, there is no reusable public link.</p>
+    </section>
+
+    <section>
+      <h2>Retention and deletion</h2>
+      <p>Your data is kept while your account exists. Deleting your account (Profile → Edit profile → Delete my account) permanently removes your profile, catches, photos, comments, follows, group memberships, preferences, and any reports tied to your account. An internal moderation decision log (dates, actions and technical identifiers, without a copy of the content or media) is kept for audit purposes.</p>
+    </section>
+
+    <section>
+      <h2>Your rights</h2>
+      <p>You can access, correct or delete your data at any time: username, bio, avatar and preferences are editable in the app, and account deletion is immediate and permanent. Under the GDPR you also have rights of access, rectification, erasure, and portability — contact us to exercise them.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes in a meaningful way, we will say so in the app before the change takes effect. The date at the top always reflects the latest version.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For any privacy question or request: <a href="mailto:wildtrack.org@gmail.com">wildtrack.org@gmail.com</a>.</p>
+    </section>
+  </article>
+
+  <footer>WildTrack</footer>
+</main>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang-switch button');
+    var articles = document.querySelectorAll('article[data-doc]');
+    function setLang(lang) {
+      articles.forEach(function (a) {
+        a.hidden = a.getAttribute('data-doc') !== lang;
+      });
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang));
+      });
+      document.documentElement.lang = lang;
+      try { localStorage.setItem('wt-legal-lang', lang); } catch (e) {}
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('wt-legal-lang'); } catch (e) {}
+    if (saved === 'en' || saved === 'fr') setLang(saved);
+  })();
+</script>
+</body>
+</html>
